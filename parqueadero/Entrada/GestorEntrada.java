@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class GestorEntrada {
 
-    public ModeloEntrada registrarEntrada(String placa, String tipo) {
+    public static ModeloEntrada registrarEntrada(String placa, String tipo) {
 
         if (placa == null || placa.isEmpty()) {
             throw new IllegalArgumentException("La placa es obligatoria");
